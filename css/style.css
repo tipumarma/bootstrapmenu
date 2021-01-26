@@ -1,0 +1,54 @@
+/*
+font-family: 'Lato', sans-serif;
+font-family: 'Dosis', sans-serif;
+font-family: 'Sniglet', cursive;
+*/
+/*common starts*/
+body{
+	font-family: 'Dosis', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: #333333;	
+}
+/*common ends*/
+/*header starts*/
+header{
+    background-color: #ffd338;
+}
+.menu ul li a{
+     font-size: 18px !important;
+     font-weight: 700;
+     color: white !important;
+     padding: 2px 20px !important;
+     border-radius: 20px;
+}
+.menu ul li a:hover{
+	background-color: #f05c5c;
+
+}
+.c_dropdown{
+	padding: 12px 10px !important;
+    padding-bottom: 1px !important;
+}
+.d_user a, .d_search a{
+	color: white;
+}
+.d_user a:hover, .d_search a:hover{
+    color: #f05c5c;
+}
+.d_user a:focus, .d_search a:focus {
+	box-shadow: 0 0 0 0.25rem rgb(240 92 92 / 25%);
+}
+.d_user ul, .d_search ul{
+	background-color: #ffd338;
+}
+.d_user ul{
+	top: 161%;
+    left: -105px;
+}
+.d_search ul{
+	top: 161%;
+    left: -300px;
+    min-width: 350px;
+}
+/*header ends*/
